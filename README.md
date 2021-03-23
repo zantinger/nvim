@@ -8,4 +8,5 @@ Neovim with custom configuration
 brew install --HEAD luajit
 brew install --HEAD neovim
 brew install ranger
+brew install jesseduffield/lazygit/lazygit
 ```
