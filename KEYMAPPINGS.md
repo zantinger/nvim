@@ -72,6 +72,16 @@
 | `VaB` | a block with {} |
 | `Vib` | inner block with () |
 | `ViB` | inner block with {} |
+
+# Git
+
+| Key(s) | Beschreibung |
+| ------------- |:-------------:|
+| `<Leader>gs` | Git status |
+| `<Leader>gf` | Git diff left |
+| `<Leader>gj` | Git diff right |
+
+
 # Window
 
 | Key(s) | Beschreibung |
