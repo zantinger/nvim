@@ -1,12 +1,9 @@
 # nvim
 Neovim with custom configuration
 
+# Linux
 
-## MacOS
-
-```
-brew install --HEAD luajit
-brew install --HEAD neovim
-brew install ranger
-brew install jesseduffield/lazygit/lazygit
-```
+1. Install Neovim
+2. Clone Repo to .config
+3. Clone packer 
+4. Install Plugins
