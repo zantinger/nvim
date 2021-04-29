@@ -6,11 +6,14 @@
 | `:Ex` | Open explorer in current buffer |
 | `:Vex` | Open explorer in new vertical buffer |
 | `:Sex` | Open explorer in new horizontal buffer |
-| `<C+p>` | Git files (not working with brew) |
-| `<leader>` `pf` | Files |
+| `<leader>ff` | Telescope find files | 
+| `<leader>fg` | Telescope grep |
+| `<leader>fb` | Telescope buffers | 
+| `<leader>fh` | Telescope tags |
 | `:Rg` | quickfix-list |
 | `:sp filename` | |
-| `file *name` `<Tab>` ||
+
+
 # Navigate between Files / Buffers
 
 | Key(s) | Beschreibung |
@@ -59,6 +62,9 @@
 
 | Key(s) | Beschreibung |
 | ------------- |:-------------:|
+| `jk` | normel mode |
+| `<leader>w` | fast save |
+| `<leader><cr> | source luafile |
 | `<S+d>` | delete to the end |
 | `<S+c>` | delete to the end + insert mode |
 | `<S+s>` | delete full line + insert  mode |
