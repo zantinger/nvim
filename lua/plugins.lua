@@ -8,4 +8,5 @@ return require('packer').startup(function()
     requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
   }
   use 'vim-airline/vim-airline'
+  use 'jiangmiao/auto-pairs'
 end)
