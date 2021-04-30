@@ -9,4 +9,7 @@ return require('packer').startup(function()
   }
   use 'vim-airline/vim-airline'
   use 'jiangmiao/auto-pairs'
+
+  use 'neovim/nvim-lspconfig'
+  use 'nvim-lua/completion-nvim'
 end)
