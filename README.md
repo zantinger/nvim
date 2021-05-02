@@ -9,6 +9,7 @@ Neovim with custom configuration
 4. Install Plugins
 5. npm install -g typescript typescript-language-server
 6. npm install -g vscode-html-languageserver-bin
+6. npm install -g vls 
 
 ## ToDo
 1. Telescope marks to list
