@@ -50,7 +50,7 @@ end
 
 -- Use a loop to conveniently both setup defined servers 
 -- and map buffer local keybindings when the language server attaches
-local servers = { "tsserver", "html" }
+local servers = { "tsserver", "html", "vuels" }
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 
 for _, lsp in ipairs(servers) do

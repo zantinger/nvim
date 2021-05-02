@@ -1,7 +1,7 @@
 return require('packer').startup(function()
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
-  use 'ayu-theme/ayu-vim'
+    use 'morhetz/gruvbox'
   use 'tpope/vim-fugitive'
   use {
     'nvim-telescope/telescope.nvim',
@@ -9,8 +9,12 @@ return require('packer').startup(function()
   }
   use 'vim-airline/vim-airline'
   use 'jiangmiao/auto-pairs'
-
   use 'neovim/nvim-lspconfig'
   use 'nvim-lua/completion-nvim'
   use 'ervandew/supertab'
+  use 'maxmellon/vim-jsx-pretty' 
+  use {
+      'prettier/vim-prettier', 
+      run = 'yarn install' 
+  } 
 end)
