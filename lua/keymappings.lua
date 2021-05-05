@@ -33,3 +33,6 @@ vim.api.nvim_set_keymap('n', '<Leader>fo',
 
 vim.api.nvim_set_keymap('n', '<Leader>fk', 
   '<cmd>lua require("telescope.builtin").keymaps()<CR>', {noremap = true})
+
+-- open keymapping in buffer
+vim.api.nvim_set_keymap('n', '<leader>mk', ':vs ~/.config/nvim/KEYMAPPINGS.md<CR>', {noremap = true})

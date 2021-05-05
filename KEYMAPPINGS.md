@@ -15,6 +15,7 @@
 | `<leader>fk` | Telescope keymaps |
 | `:vimgrep` term files  | quickfix-list |
 | `:sp filename` | |
+| `:vs filename` | open file in vertical split |
 
 
 # Navigate between Files / Buffers
@@ -29,7 +30,9 @@
 | `:b number` | jump to buffer bei index |
 | `:b <Tab>` | jump to buffer bei name |
 | `<C+6>` | jump between current and prev |
-
+| `:bn` | next buffer |
+| `:bp` | prev buffer |
+| `<C-w>w` | switch viewport | 
 
 # Navigate in File / Buffer
 
@@ -103,7 +106,7 @@
 | `<C-w>` | window mode  |
 | `<C-w>` + `s` \| `v` | Open Window vertical \| horizontal
 | `<C+w>` `o` | close all (not current) |
-
+| `number <C-w> >\|<` | increase/decrease window | 
 # Searching
 
 | Key(s) | Beschreibung |
