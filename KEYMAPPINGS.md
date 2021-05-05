@@ -10,7 +10,10 @@
 | `<leader>fg` | Telescope grep |
 | `<leader>fb` | Telescope buffers | 
 | `<leader>fh` | Telescope tags |
-| `:Rg` | quickfix-list |
+| `<leader>fw` | Telescope explorer |
+| `<leader>fo` | Telescope old files |
+| `<leader>fk` | Telescope keymaps |
+| `:vimgrep` term files  | quickfix-list |
 | `:sp filename` | |
 
 
