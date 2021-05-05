@@ -82,6 +82,11 @@
 | `Vib` | inner block with () |
 | `ViB` | inner block with {} |
 
+# Commentar
+| Key(s) | Beschreibung |
+| ------------- |:-------------:|
+| `gc{motion}` | comment or uncomment lines |
+
 # Git
 
 | Key(s) | Beschreibung |

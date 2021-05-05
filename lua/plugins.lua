@@ -17,4 +17,5 @@ return require('packer').startup(function()
       'prettier/vim-prettier', 
       run = 'yarn install' 
   } 
+  use 'tpope/vim-commentary'
 end)
