@@ -1,4 +1,4 @@
-# Open File / Buffer
+# Open File(s) / Buffer(s)
 
 | Key(s) | Beschreibung |
 | ------------- |:-------------:|
@@ -16,7 +16,7 @@
 | `:vimgrep` term files  | quickfix-list |
 | `:sp filename` | |
 | `:vs filename` | open file in vertical split |
-
+| `<C-q>` | send files to quickfix-list | 
 
 # Navigate between Files / Buffers
 
