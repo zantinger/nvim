@@ -8,6 +8,22 @@ vim.api.nvim_set_keymap('n', '<Leader><Enter>', ':luafile %<CR>', {noremap = tru
 vim.api.nvim_set_keymap('n', '<Leader>w', ':w<CR>', {noremap = true})
 
 -- working with fugitive
+require('telescope').setup{
+  defaults = {
+
+    layout_strategy = 'vertical',
+    layout_defaults = {
+      vertical = {
+        height_padding = 0,
+        mirror = false,
+        preview_height = 30,
+        scroll_speed = 2,
+        width_padding = 2
+      }
+    }
+  }
+
+}
 vim.api.nvim_set_keymap('n', '<Leader>gs', ':G<CR>', {noremap = false})
 vim.api.nvim_set_keymap('n', '<Leader>gf', ':diffget //2<CR>', {noremap = false})
 vim.api.nvim_set_keymap('n', '<Leader>gj', ':diffget //3<CR>', {noremap = false})
