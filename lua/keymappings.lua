@@ -25,8 +25,20 @@ require('telescope').setup{
 
 }
 vim.api.nvim_set_keymap('n', '<Leader>gs', ':G<CR>', {noremap = false})
-vim.api.nvim_set_keymap('n', '<Leader>gf', ':diffget //2<CR>', {noremap = false})
-vim.api.nvim_set_keymap('n', '<Leader>gj', ':diffget //3<CR>', {noremap = false})
+vim.api.nvim_set_keymap('n', '<Leader>gf', ':diffget //2<CR>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<Leader>gj', ':diffget //3<CR>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<C-j>', ':cnext', {noremap = true})
+vim.api.nvim_set_keymap('n', '<C-k>', ':cprev', {noremap = true})
+
+-- don't loose reference 
+vim.api.nvim_set_keymap('v', '<Leader>p', '"_dP', {noremap = true})
+
+-- move line
+vim.api.nvim_set_keymap('v', 'J', ":m '>+1<CR>gv=gv", {noremap = true})
+vim.api.nvim_set_keymap('v', 'K', ":m '>-2<CR>gv=gv", {noremap = true})
+
+-- copy to system clipboard
+vim.api.nvim_set_keymap('v', '<Leader>y', '"+y', {noremap = true})
 
 -- telescope mappings
 vim.api.nvim_set_keymap('n', '<Leader>ff',
