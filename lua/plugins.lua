@@ -18,4 +18,5 @@ return require('packer').startup(function()
       run = 'yarn install' 
   } 
   use 'tpope/vim-commentary'
+  use 'tpope/vim-unimpaired'
 end)

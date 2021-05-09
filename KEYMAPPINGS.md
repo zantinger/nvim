@@ -1,3 +1,7 @@
+For navigate and toggle I use tpope/vim-unimpaired
+https://github.com/tpope/vim-unimpaired/blob/master/doc/unimpaired.txt
+
+
 # Open File(s) / Buffer(s)
 
 | Key(s) | Beschreibung |
