@@ -3,7 +3,7 @@ Neovim with custom configuration
 
 # Linux
 
-1. Install Neovim `https://github.com/neovim/neovim/releases`
+1. Install Neovim (0.5) `https://github.com/neovim/neovim/releases`
 3. Clone Repo to .config
 4. Clone packer `git clone https://github.com/wbthomason/packer.nvim\ ~/.local/share/nvim/site/pack/packer/start/packer.nvim`
  
