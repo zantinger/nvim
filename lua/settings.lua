@@ -19,3 +19,4 @@ vim.cmd('let g:completion_matching_strategy_list = ["exact", "substring", "fuzzy
 vim.cmd('let g:dashboard_default_executive ="telescope"')
 vim.cmd('autocmd vimenter * ++nested colorscheme gruvbox')
 vim.cmd('let g:SuperTabDefaultCompletionType = "<c-n>"')
+vim.cmd('let g:airline_section_b = ""')
