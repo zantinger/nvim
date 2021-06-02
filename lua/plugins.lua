@@ -10,7 +10,7 @@ return require('packer').startup(function()
   use 'vim-airline/vim-airline'
   use 'jiangmiao/auto-pairs'
   use 'neovim/nvim-lspconfig'
-  use 'nvim-lua/completion-nvim'
+  use 'hrsh7th/nvim-compe'
   use 'ervandew/supertab'
   use 'maxmellon/vim-jsx-pretty' 
   use {

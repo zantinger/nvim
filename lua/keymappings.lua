@@ -64,3 +64,7 @@ vim.api.nvim_set_keymap('n', '<Leader>fk',
 
 -- open keymapping in buffer
 vim.api.nvim_set_keymap('n', '<leader>mk', ':vs ~/.config/nvim/KEYMAPPINGS.md<CR>', {noremap = true})
+
+vim.api.nvim_set_keymap('i', '<silent><expr> <C-Space>', 'compe#complete()', {noremap = true})
+vim.api.nvim_set_keymap('i', '<silent><expr> <CR>', 'compe#confirm("<CR>")', {noremap = true})
+vim.api.nvim_set_keymap('i', "<silent><expr> <C-e>", "compe#close('<C-e>')", {noremap = true})
