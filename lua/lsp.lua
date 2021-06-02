@@ -6,6 +6,9 @@ local servers = { "tsserver", "html", "vuels" }
 
 for _, lsp in ipairs(servers) do
     nvim_lsp[lsp].setup { 
-        on_attach = require'completion'.on_attach
+--        on_attach = require'completion'.on_attach
     }
 end
+
+local saga = require 'lspsaga'
+saga.init_lsp_saga()
