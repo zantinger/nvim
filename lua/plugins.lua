@@ -21,4 +21,6 @@ return require('packer').startup(function()
   use 'tpope/vim-unimpaired'
   use 'SirVer/ultisnips'
   use 'honza/vim-snippets'
+  use 'mattn/emmet-vim'
+  use 'nelsyeung/twig.vim'
 end)
