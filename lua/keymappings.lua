@@ -8,22 +8,22 @@ vim.api.nvim_set_keymap('n', '<Leader><Enter>', ':luafile %<CR>', {noremap = tru
 vim.api.nvim_set_keymap('n', '<Leader>w', ':w<CR>', {noremap = true})
 
 -- working with fugitive
-require('telescope').setup{
-  defaults = {
-
-    layout_strategy = 'vertical',
-    layout_defaults = {
-      vertical = {
-        height_padding = 0,
-        mirror = false,
-        preview_height = 30,
-        scroll_speed = 2,
-        width_padding = 2
-      }
-    }
-  }
-
-}
+--require('telescope').setup{
+--  defaults = {
+--
+--    layout_strategy = 'vertical',
+--    layout_defaults = {
+--      vertical = {
+--        height_padding = 0,
+--        mirror = false,
+--        preview_height = 30,
+--        scroll_speed = 2,
+--        width_padding = 2
+--      }
+--    }
+--  }
+--
+--}
 vim.api.nvim_set_keymap('n', '<Leader>gs', ':G<CR>', {noremap = false})
 vim.api.nvim_set_keymap('n', '<Leader>gf', ':diffget //2<CR>', {noremap = true})
 vim.api.nvim_set_keymap('n', '<Leader>gj', ':diffget //3<CR>', {noremap = true})
@@ -64,3 +64,7 @@ vim.api.nvim_set_keymap('n', '<Leader>fk',
 
 -- open keymapping in buffer
 vim.api.nvim_set_keymap('n', '<leader>mk', ':vs ~/.config/nvim/KEYMAPPINGS.md<CR>', {noremap = true})
+
+-- buffer navigation
+vim.api.nvim_set_keymap('n', '<C-]>', '<C-d>', {noremap = true})
+vim.api.nvim_set_keymap('n', '<C-[>', '<C-u>', {noremap = true})
