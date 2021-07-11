@@ -7,6 +7,7 @@ return require('packer').startup(function()
     'nvim-telescope/telescope.nvim',
     requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
   }
+  use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
   use 'vim-airline/vim-airline'
   use 'jiangmiao/auto-pairs'
   use 'neovim/nvim-lspconfig'
@@ -23,4 +24,6 @@ return require('packer').startup(function()
   use 'honza/vim-snippets'
   use 'mattn/emmet-vim'
   use 'nelsyeung/twig.vim'
+  use 'captbaritone/better-indent-support-for-php-with-html'
+  use 'danilamihailov/beacon.nvim'
 end)
