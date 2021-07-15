@@ -14,16 +14,14 @@ return require('packer').startup(function()
   use 'nvim-lua/completion-nvim'
   use 'ervandew/supertab'
   use 'maxmellon/vim-jsx-pretty' 
+  use 'tpope/vim-commentary'
   use {
       'prettier/vim-prettier', 
-      run = 'yarn install' 
+      run = 'npm install'
   } 
-  use 'tpope/vim-commentary'
   use 'tpope/vim-unimpaired'
-  use 'SirVer/ultisnips'
-  use 'honza/vim-snippets'
   use 'mattn/emmet-vim'
   use 'nelsyeung/twig.vim'
-  use 'captbaritone/better-indent-support-for-php-with-html'
+  --use 'captbaritone/better-indent-support-for-php-with-html'
   use 'danilamihailov/beacon.nvim'
 end)
